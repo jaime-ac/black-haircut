@@ -1,0 +1,30 @@
+.container__contato{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('/public/images/background-contato.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contato__navbar{
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+}
+.contato__form{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 150px;
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: transparent;
+}
+    .form__agendamento{
+        height: 800px;
+        width: 600px;
+        background-color: darkcyan;
+        border-radius: 20px;
+    }

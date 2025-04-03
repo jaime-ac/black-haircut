@@ -1,0 +1,20 @@
+.container__home{
+    background-image: url('/public/images/background-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+
+.home__navbar{
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+}
+
+.home__main{
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: transparent;
+}
